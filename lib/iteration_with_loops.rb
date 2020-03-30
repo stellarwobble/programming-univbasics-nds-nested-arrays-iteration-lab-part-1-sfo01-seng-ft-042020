@@ -8,6 +8,7 @@ while row < src.count do
   while element < src[row].count do
     if src[row][element].even?
     p src[row][element]
+  end
     element += 1 
   end
   row += 1
